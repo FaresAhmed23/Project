@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE School For Kids</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgb(233, 190, 19);">
+        <div class="container">
+            <a href="#" class="navbar-brand">WE school for Kids</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="Nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2"><a href="#Home" class="nav-link active">Home</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link active">About</a></li>
+                    <li class="nav-item mx-2"><a href="#admission" class="nav-link active">Admission</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link active">Why us</a></li>
+                    <li class="nav-item mx-2"><a href="#contact" class="nav-link active">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="Home">
+        <div class="mt-5 container-fluid text-light" id="tr">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-5 col-sm-10">
+                    <div class="row mt-5">
+                        <h1 class="display-2">Best way to <br> find your <br> study abroad</h1>
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod eum ex
+                            consequuntur. Quia corporis omnis quis odio libero cupiditate cum ullam, nulla maxime
+                            distinctio quasi dolor enim eum! Id!</p>
+                        <p id="cont2"></p>
+                    </div>
+                    <div class="row">
+                        <button class="ms-2 mt-4 btn rounded-5 w-25 mb-5"
+                            style="background-color: white; color: black;" id="readmore" onclick="readmore()">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-5">
+                    <img src="hero.png" alt="#" class="img-fluid mx-auto d-block w-100">
+                </div>
+            </div>
+        </div>
+    </main>
+    <article class="my-5" id="admission">
+        <div class="container justify-content-center align-items-center">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-8">
+                    <h1>Admission open</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus adipisci placeat nihil. Beatae soluta provident commodi fugit dignissimos ipsum voluptatem cumque deserunt, ducimus esse animi asperiores quos voluptatum ipsa!</p>
+                    <p id="cont"></p>
+                    <button class="btn" style="background-color: rgb(255, 204, 0);" onclick="readmore2()" id="btn">Read more</button>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <img src="admission.png" alt="#" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="my-5" id="contact">
+        <div class="container justify-content-center align-items-center">
+            <div class="row d-flex justify-content-center align-items-center">
+                <form class="col-lg-6 col-8">
+                    <h1>Contact Us</h1>
+                    <div class="my-3">
+                        <input type="text" name="fff" id="ss" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="my-3">
+                        <input type="email" name="as" id="qq" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="my-3">
+                        <input type="tel" name="ff" id="ww" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="my-5">
+                        <textarea placeholder="Message" cols="30" class="form-control" rows="10" id="send"></textarea>
+                    </div>
+                    <div class="my-5">
+                        <button class="btn rounded-pill w-25" style="background-color: aquamarine;color: white;" type="button" onclick="validation()">Send</button>
+                    </div>
+                </form>
+                <div class="col-lg-6 col-6">
+                    <img src="students.jpg" alt="#" class="img-fluid mx-auto d-block w-100">
+                </div>
+            </div>
+        </div>
+    </article>
+    <section id="fom">
+    </section>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
+    <script src="js/all.min.js">
+    </script>
+</body>
+
+</html>
